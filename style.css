@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* shared style */
+.text-primary{
+    color:rgb(253, 110, 10) ;
+}
+.btn{
+    width: 140px;
+    height: 54px;
+    top: 50px;
+    border-radius: 7px;
+    background: rgb(253, 110, 10);
+    border: none;
+    color: aliceblue;
+    font-size: large;
+}
+   
+
+
+/* navbar style */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 200px;
+}
+nav ul{
+    display: flex;
+    align-items:center ;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    line-height: 27px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* navbar banner design */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+    height: 500px;
+    margin: 200px auto;
+}
+.banner-contant{
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.banner-heading{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align:justify;
+    padding: 30px;
+}
+.banner-img{
+    margin-right: 150px;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: 833px;
+
+}
+.btn-button{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.btn-download{
+    width: 200px;
+    height: 54px;
+    border-radius: 7px;
+    background: rgb(253, 110, 10);
+    border: none;
+    color: aliceblue;
+    font-size: large;
+}
