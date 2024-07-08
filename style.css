@@ -29,6 +29,7 @@ body{
 header{
     background-image: url(./images/developer.png);
     background-repeat: no-repeat;
+    height: 770px;
 }
 
 nav {
@@ -86,7 +87,8 @@ nav ul li a {
     font-size: 20px;
     font-weight: 400;
     text-align:justify;
-    padding: 30px;
+    padding: 40px;
+    
 }
 .banner-img{
     width: 50%;
