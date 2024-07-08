@@ -5,6 +5,7 @@
 }
 body{
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 /* shared style */
@@ -114,4 +115,185 @@ nav ul li a {
     border: none;
     color: aliceblue;
     font-size: large;
+    cursor: pointer;
+}
+/* about-section design */
+
+.about-section{
+    width: 1140px;
+    height: 305px;
+    margin: 300px auto;
+}
+.about-content h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.about-content p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.personal-information{
+    width: 1140px;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.personal-information p{
+    text-align: center;
+}
+.about-information{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+/* what-i-do-design */
+.what-i-do{
+    width: 1140px;
+    height: 205px;
+    margin: 0 auto;
+    text-align: center;
+}
+.what-i-do h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.what-i-do p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* my-project-design */
+
+.my-project{
+    width: 1140px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+.project-items{
+    padding: 20px;
+}
+.project-items img{
+    margin-bottom: 10px;
+}
+.project-items h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.project-items p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* resume design */
+.resume-title{
+    width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.resume{
+    width: 1140px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+.my-education{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.ssc h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.Certificate h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.Certificate p{
+    font-size: 16px;
+    /* font-weight: 400; */
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(117, 117, 117);
+}
+.resume-btn{
+   position: absolute;
+   margin-top: 38%;
+   margin-left: 24%;
+}
+
+/* footer design */
+.footer{
+    width: 1500px;
+    height: 480px;
+    background-color:rgba(255, 145, 56, 0.295);
+    margin: 0 auto;
+    gap: 50px;
+    display: flex;
+    padding: 180px;
+}
+.connect{
+    width: 40%;
+}
+.connect h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.connect p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+}
+.connect img{
+    margin-top: 40px;
+    width: 8%;
+    
+    border: 2px dashed rgb(141, 139, 139);
+}
+.message{
+    width: 40%;
+}
+.message h1{
+    font-size: 35px;
+font-weight: 700;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    
+}
+.form  input{
+    width: 595px;
+    height: 64px;
+    text-align: center;
+}
+.form textarea{
+    text-align: center;
+    font-size: x-large;
 }
